@@ -6,7 +6,7 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
     state: {
-        serverUrl: 'http://localhost:3000',
+        serverUrl: 'https://paint-io-server.herokuapp.com',
         player: { name : null },
         socket: null,
         currentScreen: 'home',
